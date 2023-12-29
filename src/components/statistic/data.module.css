@@ -1,0 +1,25 @@
+.statistics {
+  margin: 40px auto;
+  max-width: auto;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.statsList {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 0;
+  justify-content: center;
+  align-items: center;
+}
+.statsList > li {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 10px;
+}
