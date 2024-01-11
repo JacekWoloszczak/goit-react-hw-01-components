@@ -1,6 +1,6 @@
-import css from './data.module.css';
+import css from './statistics.module.css';
 import propTypes from 'prop-types';
-import { getRandomHexColor } from '../utilis/randomHexColor';
+import { getRandomHexColor } from '../../utilis/randomHexColor';
 
 export const Statistics = ({ title, stats }) => {
   return (
